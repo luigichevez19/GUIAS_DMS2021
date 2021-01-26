@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Luis Chévez
+ */
+public class GUIA01_CD161656 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Scanner teclado=new Scanner(System.in);
+    	int num1,num2,res;
+ 
+    	System.out.println("Ingrese primer valor:");
+    	num1=teclado.nextInt();
+
+    	System.out.println("Ingrese segundo valor");
+    	num2=teclado.nextInt();
+
+    	res=num1 % num2;
+
+        String mensaje= (res==0)?"Los numero son divisibles entre si ":" No son divisibles entre si";
+    	System.out.println(mensaje);
+    }
+    
+}
