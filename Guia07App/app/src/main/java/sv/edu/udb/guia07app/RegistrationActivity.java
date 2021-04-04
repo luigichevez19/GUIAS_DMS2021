@@ -18,10 +18,10 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class RegistrationActivity extends AppCompatActivity {
+
     private EditText emailTV, passwordTV;
     private Button regBtn;
     private ProgressBar progressBar;
-
 
     private FirebaseAuth mAuth;
     @Override
@@ -39,8 +39,6 @@ public class RegistrationActivity extends AppCompatActivity {
                 registerNewUser();
             }
         });
-
-
     }
 
     private void registerNewUser() {
@@ -84,5 +82,4 @@ public class RegistrationActivity extends AppCompatActivity {
         regBtn = findViewById(R.id.register);
         progressBar = findViewById(R.id.progressBar);
     }
-
 }

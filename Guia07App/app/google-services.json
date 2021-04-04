@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "349617338575",
-    "project_id": "loginfirebaseapp-9de4b",
-    "storage_bucket": "loginfirebaseapp-9de4b.appspot.com"
+    "project_number": "104421670883",
+    "project_id": "loginfirebase-a598d",
+    "storage_bucket": "loginfirebase-a598d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:349617338575:android:e8e8fab4c33a0077a75fba",
+        "mobilesdk_app_id": "1:104421670883:android:c064a4daeeae329d572ad6",
         "android_client_info": {
           "package_name": "sv.edu.udb.guia07app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "349617338575-681790c4hv11304c9177a4tuvfdjm933.apps.googleusercontent.com",
+          "client_id": "104421670883-pclv2n55uer2h5ttv0hf0qnqstsj6hni.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCWG-NDjnvYK0OQt2hlyW6_cI23ZRsZUio"
+          "current_key": "AIzaSyCgxBZZhy8pdN7jzWYsVf_bg6iejwklgts"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "349617338575-681790c4hv11304c9177a4tuvfdjm933.apps.googleusercontent.com",
+              "client_id": "104421670883-pclv2n55uer2h5ttv0hf0qnqstsj6hni.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
