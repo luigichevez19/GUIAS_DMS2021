@@ -39,21 +39,4 @@
         android:layout_height="wrap_content"
         android:visibility="gone" />
 
-    <Button
-        android:id="@+id/btnGoogle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:drawableStart="@mipmap/iconfinder_logo_brand_brands_logos_google_2993685"
-        android:text="Google"
-        android:textAlignment="textStart"
-        android:textColor="@color/cardview_dark_background"
-        app:backgroundTint="@color/white" />
-
-    <Button
-        android:id="@+id/btnFace"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Facebook" />
-
 </LinearLayout>

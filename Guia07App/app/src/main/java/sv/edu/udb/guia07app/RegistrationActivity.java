@@ -22,6 +22,7 @@ public class RegistrationActivity extends AppCompatActivity {
     private Button regBtn;
     private ProgressBar progressBar;
 
+
     private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,8 @@ public class RegistrationActivity extends AppCompatActivity {
                 registerNewUser();
             }
         });
+
+
     }
 
     private void registerNewUser() {
@@ -81,4 +84,5 @@ public class RegistrationActivity extends AppCompatActivity {
         regBtn = findViewById(R.id.register);
         progressBar = findViewById(R.id.progressBar);
     }
+
 }
